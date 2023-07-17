@@ -1,0 +1,37 @@
+[
+    {
+        "image":"recy-cardboard-box.png",
+        "name":"Cardboard Box",
+        "answer":"recycle",
+        "facts":"Some facts about cardboard boxes",
+        "next":""
+    },
+    {
+        "image":"recy-takeaway-box.png",
+        "name":"Takeaway Box",
+        "answer":"recycle",
+        "facts":"Some facts about takeaway boxes",
+        "next":""
+    },
+    {
+        "image":"dirt-recy-Glass-jar.png",
+        "name":"Dirty Glass Jar",
+        "answer":"wash",
+        "facts":"Some facts about dirty glass jars",
+        "next":"Glass Jar"
+    },
+    {
+        "image":"recy-Glass-jar-clean.png",
+        "name":"Glass Jar",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-Coffee.png",
+        "name":"Coffee Cup",
+        "answer":"general",
+        "facts":"Some facts about coffee cups",
+        "next":""
+    }
+]
