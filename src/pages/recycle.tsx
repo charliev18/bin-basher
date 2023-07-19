@@ -171,13 +171,13 @@ export default function Game() {
                         <Item
                             id='item'
                             name={items[0].name}
-                            source={items[0].image}
+                            source={`${basePath}/${items[0].image}`}
                         />
                     </DndContext>
                 </div>
             }
             {gameStage == 2 &&
-                <GameOver mistakes={mistakes} resetGameStage={resetGameStage} />
+                <GameOver basePath={basePath} mistakes={mistakes} resetGameStage={resetGameStage} />
             }
         </div>
       </main>

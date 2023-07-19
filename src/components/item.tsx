@@ -1,5 +1,6 @@
 import { useDraggable } from "@dnd-kit/core";
 import { CSS } from '@dnd-kit/utilities'
+import Image from "next/image";
 
 export default function Item({ id, name, source } : { id:string, name:string, source:string }) {
     const {attributes, listeners, setNodeRef, transform} = useDraggable({
@@ -12,7 +13,7 @@ export default function Item({ id, name, source } : { id:string, name:string, so
 
     return (
         <button className='draggableItem' ref={setNodeRef} style={style} {...listeners} {...attributes}>
-            <img src={source} />
+            <Image src={source} alt={name} />
             <div>{name}</div>
         </button>
     );

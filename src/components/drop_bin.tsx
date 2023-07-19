@@ -1,4 +1,5 @@
 import { useDroppable } from "@dnd-kit/core";
+import Image from "next/image";
 
 export default function Bin({ type, source, xPos, yPos } : { type:string, source:string, xPos:string, yPos:string }) {
     const {setNodeRef} = useDroppable({
@@ -11,7 +12,7 @@ export default function Bin({ type, source, xPos, yPos } : { type:string, source
             left: `${xPos}`,
             top: `${yPos}`
         }}> 
-            <img src={source} />
+            <Image src={source} alt={type} />
         </div>
     );
 }
