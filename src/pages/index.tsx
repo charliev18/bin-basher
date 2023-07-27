@@ -12,6 +12,8 @@ import UserInfo from '@/components/user_info';
 import Item from '@/components/item';
 import Bin from '@/components/drop_bin';
 
+import { Analytics } from '@vercel/analytics/react';
+
 let interval : NodeJS.Timer;
 
 // Parse and shuffle item array
@@ -172,6 +174,11 @@ export default function Game() {
                 curSelection.style.transform = "";
                 setCurSelection(null);
             }
+
+            // Preload next item image to avoid delay
+            if (items.length > 1) {
+                preloadImage(items[1].image);
+            }
         }
 
         forceUpdate();
@@ -202,7 +209,6 @@ export default function Game() {
                 <div>
                     <UserInfo label="Time Remaining" val={timeRemaining.toString()} />
                     <UserInfo label="Score" val={score.toString()} />
-                    <UserInfo label="Pos" val={mousePos.x + ', ' + mousePos.y} />
 
                     <DndContext onDragOver={ handleDragOver } onDragEnd={ handleDragEnd } modifiers={ [restrictToFirstScrollableAncestor] }>
                         <Bin
@@ -237,6 +243,7 @@ export default function Game() {
                 <GameOver basePath={basePath} mistakes={mistakes} score={score} resetGameStage={resetGameStage} username={username} setUsername={setUsername} />
             }
         </div>
+        <Analytics />
       </main>
     )
 }

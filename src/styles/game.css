@@ -54,6 +54,7 @@ form input {
     border: solid grey 1px;
     border-radius: 10px;
     margin-left: 10px;
+    padding: 5px;
 }
 
 .closeBtn {
@@ -252,6 +253,15 @@ form input {
     position: absolute;
     z-index: 100;
     transform: translate(-50%, -50%);
+}
+
+table {
+    margin-left: 30px;
+}
+
+th {
+    font-weight: normal;
+    padding-right: 30px;
 }
 
 @media screen and (max-height: 750px) {
