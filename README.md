@@ -36,3 +36,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Build Tables
+
+CREATE TABLE users ( name varchar(255) NOT NULL, PRIMARY KEY ( name )  );
+CREATE TABLE scores ( user_name varchar(255) NOT NULL, score int NOT NULL, time timestamp DEFAULT NOW(), CONSTRAINT fk_user_name FOREIGN KEY (user_name) REFERENCES users (name) );
+
+## Insert Data
+
+INSERT INTO users ( name ) VALUES ( 'charlie' );
+INSERT INTO scores ( user_name, score ) VALUES ( 'charlie', 100 );

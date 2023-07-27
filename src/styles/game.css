@@ -22,8 +22,70 @@ h4 {
 }
 
 li {
+    margin-left: 20px;
     list-style: circle;
     font-size: 1.5rem;
+}
+
+form div {
+    display: block;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form button {
+    margin: 10px;
+    width: 140px;
+    background-color: #501b6f;
+    border: solid white 1px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    height: 60px;
+}
+
+form button > div {
+    height: 25px;
+}
+
+form input {
+    border: solid grey 1px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.closeBtn {
+    float: right;
+}
+
+.inputInvalid {
+    color: red;
+    font-size: small;
+    font-weight: normal;
+}
+
+.spinner {
+    animation-name: spin;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-button:disabled {
+    background: #e7e8e9;
+    color: #9fa3a9;
+    cursor: not-allowed;
 }
 
 .main-home {
@@ -83,6 +145,10 @@ li {
     background-color: rgba(228, 228, 228, 0.536);
 }
 
+.labelled-button:disabled {
+    border-color: rgb(100, 100, 100);
+}
+
 .bin {
     width: 20vh;
     height: 20vh;
@@ -97,16 +163,16 @@ li {
     margin: auto;
     padding-top: 10vh;
     max-width: 650px;
-    height: 60vh;
+    height: 100vh;
     position: relative;
     align-items: center;
-    overflow: visible;
+    overflow: scroll;
 }
 
 .draggableItem {
     position: absolute;
     left:10%;
-    top:50%;
+    top:40%;
 
     width: 10vh;
     height: 10vh;
@@ -159,4 +225,37 @@ li {
     margin: 0 0 0 auto;
     font-size: 2rem;
     color: green;
+}
+
+.button-group {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.button-group > button {
+    display: inline-block !important;
+    margin-left: 15px;
+}
+
+.button-group > button:first-child {
+    margin-left: 0;
+}
+
+.check-icon {
+    position: absolute;
+    z-index: 100;
+    transform: translate(-45%, -100%);
+}
+
+.cross-icon {
+    position: absolute;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-height: 750px) {
+    li {
+        font-size: 1.25em;
+    }
 }

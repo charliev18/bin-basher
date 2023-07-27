@@ -13,7 +13,7 @@ export default function Item({ id, name, source } : { id:string, name:string, so
 
     return (
         <button className='draggableItem' ref={setNodeRef} style={style} {...listeners} {...attributes}>
-            <Image src={source} alt={name} />
+            <Image src={source} alt={name} width={100} height={100} priority={true} />
             <div>{name}</div>
         </button>
     );

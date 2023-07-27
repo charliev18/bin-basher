@@ -12,7 +12,7 @@ export default function Bin({ type, source, xPos, yPos } : { type:string, source
             left: `${xPos}`,
             top: `${yPos}`
         }}> 
-            <Image src={source} alt={type} />
+            <Image src={source} alt={type} fill={true} />
         </div>
     );
 }
