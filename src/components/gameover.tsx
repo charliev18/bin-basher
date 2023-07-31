@@ -34,7 +34,6 @@ async function submitScore( username:string, score:number ) {
 
     if (!res.ok) {
         console.log('submission failed');
-        return {};
     }
 }
 
@@ -55,7 +54,7 @@ async function createNewPlayer( username:string, score:number ) {
 
     if (!res.ok) {
         console.log('Player creation failed');
-        return {};
+        return;
     }
 
     submitScore( username, score );
@@ -96,7 +95,7 @@ export default function GameOver({ basePath, mistakes, score, resetGameStage, us
     const handleSave = () => {
         if (username !== '') {
             setSaveDisabled(true);
-            submitScore(username, score );
+            submitScore( username, score );
         } else {
             openModal();
         }
@@ -192,6 +191,7 @@ export default function GameOver({ basePath, mistakes, score, resetGameStage, us
                         isOpen={modalOpen}
                         onRequestClose={closeModal}
                         style={customStyles}
+                        ariaHideApp={false}
                         contentLabel="Score Modal"
                     >
                         <button className='closeBtn' onClick={ closeModal }><GrClose /></button>

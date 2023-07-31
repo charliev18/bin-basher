@@ -11,6 +11,7 @@ import GameOver from '@/components/gameover';
 import UserInfo from '@/components/user_info';
 import Item from '@/components/item';
 import Bin from '@/components/drop_bin';
+import Backgrounds from '@/components/backgrounds';
 
 import { Analytics } from '@vercel/analytics/react';
 
@@ -65,7 +66,7 @@ export default function Game() {
     useEffect(() => {
         setItems(loadItems());
         for (let i = 0; i < 6; i++) {
-            preloadImage(`${basePath}/main_${i}.png`);
+            preloadImage(`${basePath}/main_${i}.jpg`);
         }
 
         // Function to update mouse position on mousemove
@@ -190,7 +191,8 @@ export default function Game() {
     }
 
     return (
-      <main className='main-home' style={{ backgroundImage: `url(${basePath}/main_${Math.min(score, 5)}.png)`}}>
+      <main className='main-home'>
+        <Backgrounds toDisplay={ Math.min(score, 5) } basePath={basePath} />
         <IconContext.Provider value={{ color: "green", size: '2.5em' }}>
             <div className="check-icon" style={{ left:checkStyle.left + 'px', top:checkStyle.top + 'px', opacity: checkStyle.opacity, transition: checkStyle.transition }}>
                 <GiCheckMark />

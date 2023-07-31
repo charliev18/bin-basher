@@ -90,7 +90,7 @@ form input {
 }
 
 .main-home {
-    background: #1c9446 url('../../public/main_0.png') no-repeat;
+    background: #1c9446 url('../../public/main_0.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -104,6 +104,11 @@ form input {
     z-index: -1;
 
     overflow: hidden;
+}
+
+.main-bg {
+    z-index: 0;
+    object-fit: cover;
 }
 
 .startup {
@@ -167,7 +172,7 @@ form input {
     height: 100vh;
     position: relative;
     align-items: center;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .draggableItem {
@@ -264,7 +269,16 @@ th {
     padding-right: 30px;
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-width: 750px) {
+    .bin {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
     li {
         font-size: 1.25em;
     }

@@ -16,7 +16,6 @@ export default async function handler(
     } catch (error) {
         return response.status(500).json({ error });
     }
-    
-    const scores = sql`SELECT * FROM score WHERE user_name=${username};`;
-    return response.status(200).json({ scores });
+
+    return response.status(200).json({  });
 }
