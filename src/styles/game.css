@@ -51,6 +51,7 @@ form button > div {
 }
 
 form input {
+    color: black;
     border: solid grey 1px;
     border-radius: 10px;
     margin-left: 10px;
@@ -181,7 +182,7 @@ form input {
     top:40%;
 
     width: 10vh;
-    height: 10vh;
+    height: auto;
 
     touch-action: none;
     cursor: grab;
@@ -189,7 +190,7 @@ form input {
 
 .draggableItem > img {
     width: 100%;
-    height: 100%;
+    height: 10vh;
 
     pointer-events: none;
 }
