@@ -36,9 +36,9 @@
     },
     {
         "image":"bin-paper-bag.png",
-        "name":"Paper Bag",
+        "name":"Dirty Paper Bag",
         "answer":"general",
-        "facts":"Paper bags - Paper bags can be recycled in the UK, as long as they are not contaminated with food or grease.",
+        "facts":"Dirty Paper bags - Dirty Paper bags cannot be recycling if they are contaminated with food or grease. However clean Paper bags can be recycled in the UK.",
         "next":""
     },
     {
