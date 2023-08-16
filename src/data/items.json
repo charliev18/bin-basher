@@ -1,177 +1,177 @@
 [
     {
         "image":"recy-cardboard-box.png",
-        "name":"Cardboard Box",
+        "name":"Cardboard Folders",
         "answer":"recycle",
-        "facts":"Some facts about cardboard boxes",
+        "facts":"Cardboard folders - Cardboard folders can be recycled in the UK, as long as they are clean and not contaminated with food. Staples and plastic windows should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-takeaway-box.png",
         "name":"Takeaway Box",
         "answer":"recycle",
-        "facts":"Some facts about takeaway boxes",
+        "facts":"Takeaway food boxes - Cardboard takeaway food boxes can be recycled in the UK, as long as they are not contaminated with food. Greasy or dirty boxes should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-Glass-jar-clean.png",
         "name":"Glass Jar",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Glass jars - Glass jars can be recycled in the UK, as long as they are clean and not broken. Lids and caps should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"bin-Coffee.png",
         "name":"Coffee Cup",
         "answer":"general",
-        "facts":"Some facts about coffee cups",
+        "facts":"Coffe Cup - Coffe Cup (Tetrapaks) can be recycled in the UK, as long as they are clean and dry. The plastic lid and any straws should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"bin-crisps-bag.png",
         "name":"Crisps Bag",
         "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Crisp packets - Crisp packets cannot be recycled in the household recycling bin in the UK. They should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"bin-paper-bag.png",
         "name":"Paper Bag",
         "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Paper bags - Paper bags can be recycled in the UK, as long as they are not contaminated with food or grease.",
         "next":""
     },
     {
         "image":"bin-plastic-bag.png",
         "name":"Plastic Bag",
         "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Plastic Bag - Plastic bags cannot be recycled in the household recycling bin. However can be dropped off at supermarkets in soft plastic bins or reused.",
         "next":""
     },
     {
         "image":"bin-plastic-cup.png",
         "name":"Plastic Cup",
-        "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "answer":"recycle",
+        "facts":"Plastic Cups - Clean Plastic cups can be recycled in the UK. However, hot takeaway coffee cups (Tetrapaks) should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"bin-shredded-paper.png",
         "name":"Shredded Paper",
         "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Shredded paper - Shredded paper can be recycled in the UK, but it should be placed in a clear plastic bag and put in the recycling bin.",
         "next":""
     },
     {
         "image":"bin-tissues.png",
         "name":"Tissues",
         "answer":"general",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Tissues - Tissues cannot be recycled in the household recycling bin in the UK",
         "next":""
     },
     {
         "image":"recy-aerosols.png",
         "name":"Aerosol",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Aerosol cans - Empty aerosol cans can be recycled in the UK, as long as they are not contaminated with hazardous materials. The plastic lid should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-aluminium-foil.png",
         "name":"Aluminium Foil",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Aluminium foils - Clean aluminium foil can be recycled in the UK. However, if it is contaminated with food or grease, it should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-books.png",
         "name":"Books",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Books - Books can be recycled in the UK, but usually not in the household recycling bin. Books can be recycled at recycling centers, but it's important to remove any non-paper elements such as hardcovers or plastic packaging.",
         "next":""
     },
     {
         "image":"recy-milk.png",
         "name":"Milk",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Milk (Tetrapaks) - Tetrapaks can be recycled in the UK, as long as they are clean and dry. The plastic lid and any straws should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-newspaper.png",
         "name":"Newspaper",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Newspaper - Newspaper can be recycled in the UK, as long as it is clean and dry. It should be put in the recycling bin.",
         "next":""
     },
     {
         "image":"recy-paper-bag.png",
         "name":"Paper Bag",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Paper bags - Paper bags can be recycled in the UK, as long as they are not contaminated with food or grease.",
         "next":""
     },
     {
         "image":"recy-paper.png",
         "name":"Paper",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Paper - Paper can be recycled in the UK, as long as it is clean and dry. Shredded paper should be placed in a clear plastic bag and put in the recycling bin.",
         "next":""
     },
     {
         "image":"recy-pizza-box.png",
         "name":"Pizza Box",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Pizza Box - Clean Pizza Boxs can be recycled in the UK. However, if it is contaminated with food or grease, it should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-plastic-bottle.png",
         "name":"Plastic Bottle",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Plastic bottles - Plastic bottles can be recycled in the UK, as long as they are clean and dry. Lids should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-tin-can.png",
         "name":"Tin Can",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Tin cans - Tin cans can be recycled in the UK, as long as they are clean and dry. Labels should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-yoghurt-cup.png",
         "name":"Yoghurt Cup",
         "answer":"recycle",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Yoghurt pots - Yoghurt pots cannot be recycled in the household recycling bin in the UK. They should be put in the general waste bin.",
         "next":""
     },
     {
         "image":"dirt-glass.png",
         "name":"Dirty Glass",
         "answer":"wash",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Dirty Glass jars - Dirty Glass jars NEED to be cleaned first, clean glass can be recycled in the UK, as long as they are clean and not broken. Lids and caps should be removed and put in the general waste bin.",
         "next":"Glass Jar"
     },
     {
         "image":"dirt-pizza-box.png",
         "name":"Dirty Pizza Box",
         "answer":"wash",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Dirty Pizza Box - Dirty Pizza Boxs cannot be recycled, tear the box into non greasy and greasy parts. If it is contaminated with food or grease, it should be put in the general waste bin. Clean cardboard in recycling.",
         "next":"Pizza Box"
     },
     {
         "image":"dirt-takeaway-box.png",
         "name":"Dirty Takeaway Box",
         "answer":"wash",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Dirty Takeaway Box - Dirty Takeaway Boxs cannot be recycled, tear the box into non greasy and greasy parts. If it is contaminated with food or grease, it should be put in the general waste bin. Clean cardboard in recycling, often they can be composted too.",
         "next":"Takeaway Box"
     },
     {
         "image":"dirt-tin-can.png",
         "name":"Dirty Tin Can",
         "answer":"wash",
-        "facts":"Some facts about clean glass jars",
+        "facts":"Dirty Tin Cans - Dirty Tin Can NEED to be cleaned first, clean tins can be recycled in the UK, as long as they are clean.",
         "next":"Tin Can"
     }
 ]
