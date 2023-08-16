@@ -51,7 +51,7 @@ form button > div {
 }
 
 form input {
-    color: black;
+    color: rgb(194, 45, 45);
     border: solid grey 1px;
     border-radius: 10px;
     margin-left: 10px;
