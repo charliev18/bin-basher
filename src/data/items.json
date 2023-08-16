@@ -14,13 +14,6 @@
         "next":""
     },
     {
-        "image":"dirt-recy-Glass-jar.png",
-        "name":"Dirty Glass Jar",
-        "answer":"wash",
-        "facts":"Some facts about dirty glass jars",
-        "next":"Glass Jar"
-    },
-    {
         "image":"recy-Glass-jar-clean.png",
         "name":"Glass Jar",
         "answer":"recycle",
@@ -33,5 +26,153 @@
         "answer":"general",
         "facts":"Some facts about coffee cups",
         "next":""
+    },
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    {
+        "image":"bin-crisps-bag.png",
+        "name":"Crisps Bag",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-paper-bag.png",
+        "name":"Paper Bag",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-plastic-bag.png",
+        "name":"Plastic Bag",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-plastic-cup.png",
+        "name":"Plastic Cup",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-shredded-paper.png",
+        "name":"Shredded Paper",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"bin-tissues.png",
+        "name":"Tissues",
+        "answer":"general",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-aerosols.png",
+        "name":"Aerosol",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-aluminium-foil.png",
+        "name":"Aluminium Foil",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-books.png",
+        "name":"Books",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-milk.png",
+        "name":"Milk",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-newspaper.png",
+        "name":"Newspaper",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-paper-bag.png",
+        "name":"Paper Bag",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-paper.png",
+        "name":"Paper",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-pizza-box.png",
+        "name":"Pizza Box",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-plastic-bottle.png",
+        "name":"Plastic Bottle",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-tin-can.png",
+        "name":"Tin Can",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"recy-yoghurt-cup.png",
+        "name":"Yoghurt Cup",
+        "answer":"recycle",
+        "facts":"Some facts about clean glass jars",
+        "next":""
+    },
+    {
+        "image":"dirt-glass.png",
+        "name":"Dirty Glass",
+        "answer":"wash",
+        "facts":"Some facts about clean glass jars",
+        "next":"Glass Jar"
+    },
+    {
+        "image":"dirt-pizza-box.png",
+        "name":"Dirty Pizza Box",
+        "answer":"wash",
+        "facts":"Some facts about clean glass jars",
+        "next":"Pizza Box"
+    },
+    {
+        "image":"dirt-takeaway-box.png",
+        "name":"Dirty Takeaway Box",
+        "answer":"wash",
+        "facts":"Some facts about clean glass jars",
+        "next":"Takeaway Box"
+    },
+    {
+        "image":"dirt-tin-can.png",
+        "name":"Dirty Tin Can",
+        "answer":"wash",
+        "facts":"Some facts about clean glass jars",
+        "next":"Tin Can"
     }
 ]
