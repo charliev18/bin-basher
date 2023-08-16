@@ -72,15 +72,15 @@
     {
         "image":"recy-aerosols.png",
         "name":"Aerosol",
-        "answer":"recycle",
-        "facts":"Aerosol cans - Empty aerosol cans can be recycled in the UK, as long as they are not contaminated with hazardous materials. The plastic lid should be removed and put in the general waste bin.",
+        "answer":"general",
+        "facts":"Aerosol cans - London boroughs don't in general recycle aerosols due to the fire risk. However, empty aerosol cans can be recycled in the UK at all out of home recycling centres. The plastic lid should be removed and put in the general waste bin.",
         "next":""
     },
     {
         "image":"recy-aluminium-foil.png",
         "name":"Aluminium Foil",
         "answer":"recycle",
-        "facts":"Aluminium foils - Clean aluminium foil can be recycled in the UK. However, if it is contaminated with food or grease, it should be put in the general waste bin.",
+        "facts":"Aluminium foils - Clean aluminium foil can be recycled in the UK, provided it is clean and saved into a significant ball for recycling. However, if it is contaminated with food or grease, it should be put in the general waste bin. Try saving and reusing too!",
         "next":""
     },
     {
