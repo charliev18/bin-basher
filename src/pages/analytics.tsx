@@ -33,7 +33,7 @@ export default function Analytics() {
     }, []);
 
     return (
-      <main>
+      <main className='analytics'>
         {disp}
       </main>
     )

@@ -1,6 +1,7 @@
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255, 224, 184);
 }
 
 h2 {
@@ -22,9 +23,15 @@ h4 {
 }
 
 li {
-    margin-left: 20px;
+    margin: 20px 0 20px 20px;
+    /* margin-left: 20px; */
     list-style: circle;
     font-size: 1.5rem;
+}
+
+.readable-bg {
+    background-color: #1c9446;
+    padding: 5px;
 }
 
 form div {
@@ -33,6 +40,7 @@ form div {
 
 form label {
     font-weight: bold;
+    color: black;
 }
 
 form button {
@@ -51,7 +59,7 @@ form button > div {
 }
 
 form input {
-    color: rgb(194, 45, 45);
+    color: black;
     border: solid grey 1px;
     border-radius: 10px;
     margin-left: 10px;
@@ -147,23 +155,25 @@ form input {
     width: fit-content;
     margin: 10px auto 10px auto;
     padding: 10px;
-    border: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(228, 228, 228, 0.536);
+    background-color: #501b6f;
 }
 
 .labelled-button:disabled {
-    border-color: rgb(100, 100, 100);
+    border-color: rgb(148, 148, 148);
+    color: rgb(148, 148, 148);
 }
 
 .bin {
     width: 20vh;
-    height: 20vh;
+    height: auto;
 }
 
 .bin > img {
-    width: 100%;
-    height: 100%;
+    width: 20vh !important;
+    height: 20vh !important;
+    display: block;
+    position: unset !important;
 }
 
 .wrapper {
@@ -195,22 +205,33 @@ form input {
     pointer-events: none;
 }
 
-.draggableItem > div {
+.imgLabel {
     width: calc(min-content);
     margin-top: 5px;
     background-color: #eeeeeec1;
+    color: black;
     border-radius: 10px;
+    text-align: center;
 }
 
 .mistake-desc {
+    display: grid;
+    grid-template-rows: [fst] auto [snd] 10% [last];
+
     width:80%;
-    height: 80%;
+    height: 60vh;
     padding: 5%;
     margin: auto;
     background-color: blanchedalmond;
+    color: black;
     border: solid black 2px;
     border-radius: 10px;
     text-align: center;
+}
+
+.mistake-content {
+    display: grid;
+    grid-template-rows: [head] 15% [txt] auto [img] 20% [last];
 }
 
 .mistake-desc h2 {
@@ -232,6 +253,10 @@ form input {
     margin: 0 0 0 auto;
     font-size: 2rem;
     color: green;
+}
+
+.mistake-desc .textbox {
+    overflow: scroll;
 }
 
 .button-group {
@@ -270,6 +295,10 @@ th {
     padding-right: 30px;
 }
 
+.analytics {
+    color: black;
+}
+
 @media screen and (max-width: 750px) {
     .bin {
         width: 15vh;
@@ -282,5 +311,9 @@ th {
 
     li {
         font-size: 1.25em;
+    }
+
+    .mistake-desc h4 {
+        font-size: 1.25rem;
     }
 }

@@ -230,7 +230,9 @@ export default function Game() {
                             source={`${basePath}/pond-remove.png`}
                             xPos='5%'
                             yPos='65%'
-                        />
+                        >
+                            <div className='imgLabel'>Wash Items Here</div>
+                        </Bin>
         
                         <Item
                             id='item'

@@ -62,9 +62,11 @@ async function createNewPlayer( username:string, score:number ) {
 
 function MistakeCorrection({ basePath, item } : { basePath:string, item:ItemObj }) {
     return (
-        <div>
+        <div className='mistake-content'>
             <h2>{item.name}</h2>
-            <h4>{item.facts}</h4>
+            <div className='textbox'>
+                <h4>{item.facts}</h4>
+            </div>
             <Image src={`${basePath}/${item.image}`} alt={item.name} width={100} height={100} />
         </div>
     )
@@ -174,13 +176,15 @@ export default function GameOver({ basePath, mistakes, score, resetGameStage, us
                 <div className="end-card">
                     <h2>Nice Job!</h2>
                     <h2>Your Score: {score}</h2>
-                    <h4>Thank You For Playing!</h4>
-                    <h4>And Remember</h4>
-                    <ul>
-                        <li>3 R&apos;s - Reduce, Reuse, then Recycle, and don&apos;t forget to wash your recycling first</li>
-                        <li>Don&apos;t pollute - Recycle to maintain the environment and wildlife</li>
-                        <li>Save Resources - Recycling saves energy and resources required to use new materials</li>
-                    </ul>
+                    <div className="readable-bg">
+                        <h4>Thank You For Playing!</h4>
+                        <h4>And Remember</h4>
+                        <ul>
+                            <li>3 R&apos;s - Reduce, Reuse, then Recycle, and don&apos;t forget to wash your recycling first</li>
+                            <li>Don&apos;t pollute - Recycle to maintain the environment and wildlife</li>
+                            <li>Save Resources - Recycling saves energy and resources required to use new materials</li>
+                        </ul>
+                    </div>
 
                     <div className="button-group">
                         <LabelledButton label="Save Score" e={ handleSave } disabled={saveDisabled} />
